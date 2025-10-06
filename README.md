@@ -114,7 +114,7 @@ export const skills = {
 export const projects = [
   {
     title: "Project Name",
-    github: "https://github.com/hitendalsaniya/project",
+    github: "https://github.com/yourusername/project",
     description: [
       "What it does",
       "Technologies used",
