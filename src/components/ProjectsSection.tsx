@@ -7,7 +7,7 @@ import {
   CardHeader,
   CardTitle,
 } from "./ui/card";
-import { Github } from "lucide-react";
+import {  ExternalLink } from "lucide-react";
 import { GlassCard } from "./ui/glass-card";
 import MotionWrapper from "./MotionWrapper";
 import { motion } from "framer-motion";
@@ -49,15 +49,15 @@ export default function ProjectsSection() {
                 </CardContent>
                 <CardFooter className="flex justify-center md:justify-start items-center border-t border-border/30 bg-gradient-to-r from-purple-500/5 to-pink-500/5">
                   <motion.a
-                    href={project.github}
+                    href={project.website}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center text-sm text-muted-foreground hover:text-purple-500 transition-colors group/link pt-8"
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                   >
-                    <Github className="h-4 w-4 mr-2 group-hover/link:rotate-12 transition-transform duration-300" />
-                    View on GitHub 🔗
+                    <ExternalLink className="h-4 w-4 mr-2 group-hover/link:rotate-12 transition-transform duration-300" />
+                    View website 🔗
                   </motion.a>
                 </CardFooter>
               </GlassCard>

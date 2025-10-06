@@ -74,7 +74,7 @@ export default function HeroSection() {
                 ✉️ {personalInfo.email}
               </motion.a>
 
-              <motion.a
+              {/* <motion.a
                 href={personalInfo.github}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -84,7 +84,7 @@ export default function HeroSection() {
               >
                 <Github className="h-4 w-4 mr-2" />
                 🌟 GitHub
-              </motion.a>
+              </motion.a> */}
 
               <motion.a
                 href={personalInfo.linkedin}
