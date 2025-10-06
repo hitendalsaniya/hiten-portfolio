@@ -78,7 +78,7 @@ export default function GlassHeader() {
                     href={`#${item}`}
                     className="transition-colors hover:text-foreground/80 text-foreground/60 py-2"
                     onClick={toggleMenu}
-                    initial={{ opacity: 0, x: -20 }}
+                    initial={{ opacity: 0, x: -40 }}
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.2, delay: index * 0.1 }}
                   >
