@@ -1,4 +1,4 @@
-# Modern Portfolio Template
+<!-- # Modern Portfolio Template
 
 A sleek, responsive portfolio website built with **Astro**, **React**, and **Tailwind CSS**, featuring modern animations and stunning glassmorphism effects.
 
@@ -114,7 +114,7 @@ export const skills = {
 export const projects = [
   {
     title: "Project Name",
-    github: "https://github.com/yourusername/project",
+    github: "https://github.com/hitendalsaniya/project",
     description: [
       "What it does",
       "Technologies used",
@@ -183,4 +183,4 @@ If you found this helpful or inspiring, **please consider leaving a star** ⭐ o
 - [React](https://reactjs.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Framer Motion](https://www.framer.com/motion/)
-- [Lucide Icons](https://lucide.dev/)
+- [Lucide Icons](https://lucide.dev/) -->
